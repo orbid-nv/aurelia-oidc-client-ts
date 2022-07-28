@@ -1,12 +1,12 @@
 {
-  "name": "aurelia-oidc-client-ts",
+  "name": "@orbid/aurelia-oidc-client-ts",
   "description": "An Aurelia plugin project.",
   "version": "0.1.0",
   "repository": {
     "type": "???",
     "url": "???"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.35",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
@@ -37,7 +37,7 @@
     "serve-static": "^1.15.0",
     "server-destroy": "^1.0.1",
     "socket.io": "^4.5.1",
-    "text": "requirejs/text",
+    "text": "github:requirejs/text",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4"
   },
@@ -58,12 +58,18 @@
   },
   "main": "dist/commonjs/index.js",
   "module": "dist/native-modules/index.js",
-  "private": true,
+  "private": false,
   "files": [
     "dist",
     "src"
   ],
   "dependencies": {
     "oidc-client-ts": "^2.0.5"
-  }
+  },
+  "types": "./dist\\commonjs\\index.d.ts",
+  "keywords": [
+    "aurelia",
+    "oidc"
+  ],
+  "author": "Tim Van Roosbroeck & Lieven De Troch"
 }
