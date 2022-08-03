@@ -1,7 +1,7 @@
 {
   "name": "@orbid/aurelia-oidc-client-ts",
-  "description": "An Aurelia plugin project.",
-  "version": "0.1.0",
+  "description": "This plugin is a fork of the aurelia-open-id-connect library but uses the oidc-client-ts instead of the depracted oidc-client-js library.",
+  "version": "1.0.0",
   "repository": {
     "type": "???",
     "url": "???"
